@@ -352,9 +352,9 @@ downthestreetalwayshadagoodsmileonhisfacetheoldmanwalkingdownthestreeQQQQQQ" }
 
         it_behaves_like "correct group management"
       end
-    end
 
-    it_behaves_like "an expected invalid domain error case"
+      it_behaves_like "an expected invalid domain error case"
+    end
   end
 
   describe "group manage action", :not_supported_on_solaris do
